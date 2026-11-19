@@ -4,7 +4,7 @@ An **in-store pickup** shipping method, built as an add-on to the Threecommerce 
 
 ![Checkout with the pickup store chosen from a list or a map](images/store-pickup-checkout-map.png)
 
-**Compatibility:** Magento Open Source / Adobe Commerce 2.4.4 – 2.4.9 · Mage-OS 1.x / 3.x · PHP 8.1 – 8.4 · Checkout themes: Breeze, Hyvä (with Threecommerce One Step Checkout)
+**Compatibility:** Magento Open Source / Adobe Commerce 2.4.4 – 2.4.9 · Mage-OS 1.x / 3.x · PHP 8.1 – 8.5 · Checkout themes: Breeze, Hyvä (with Threecommerce One Step Checkout)
 **License:** commercial · coming soon
 
 ## Features
@@ -22,7 +22,7 @@ An **in-store pickup** shipping method, built as an add-on to the Threecommerce 
 ## Requirements
 
 - Magento Open Source / Adobe Commerce 2.4.4+ or Mage-OS
-- PHP 8.1 – 8.4
+- PHP 8.1 – 8.5
 - `threecommerce/m2-storelocator` ^1.2 (free, installed automatically by Composer)
 - `threecommerce/m2-one-step-checkout` ^1.2 for the store picker at checkout (Breeze and Hyvä). With other checkouts the shipping method works but there is no store picker, so the order is blocked.
 - With Google Maps: the API key configured in the store locator
