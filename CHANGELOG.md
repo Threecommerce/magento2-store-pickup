@@ -3,6 +3,20 @@
 All notable changes to this module are documented here. This project adheres to
 [Semantic Versioning](https://semver.org/).
 
+## 2.2.0 - 2026-11-25
+
+### Added
+- **Luma checkout support** (standard Magento checkout and derived themes such as Porto), with no
+  extra module: store picker under the shipping methods (`shippingAdditional` region) shown only for
+  "Store Pickup", with search by name/address/postcode/city, paged list and map (same provider and
+  settings as the store locator).
+- `storepickup/pickup/stores` JSON endpoint: on Luma the store list is loaded only when pickup is
+  chosen, so `window.checkoutConfig` stays small with thousands of stores.
+- Luma checkout config provider (`window.checkoutConfig.tcStorePickup`) and RequireJS mixins: blocks
+  "Next" without a store, shows the store in the sidebar shipping summary, re-saves the choice after
+  the shipping information and before placing the order.
+- Pickup confirmation on the Luma success page (`checkout_onepage_success`).
+
 ## 2.1.0 - 2026-10-27
 
 ### Added
