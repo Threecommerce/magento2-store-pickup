@@ -3,6 +3,16 @@
 All notable changes to this module are documented here. This project adheres to
 [Semantic Versioning](https://semver.org/).
 
+## 2.2.1 - 2026-11-26
+
+### Fixed
+- Luma checkout: with **OpenStreetMap** the pickup map showed "The map is not available". With RequireJS
+  on the page Leaflet registers itself as an AMD module and does not set `window.L`; it is now loaded
+  through RequireJS. Breeze and Hyvä are unchanged.
+
+### Changed
+- README and Composer description: Luma checkout and PHP 8.5 listed among the supported setups.
+
 ## 2.2.0 - 2026-11-25
 
 ### Added

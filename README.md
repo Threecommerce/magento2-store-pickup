@@ -15,7 +15,10 @@ An **in-store pickup** shipping method, built as an add-on to the Threecommerce 
 - The chosen store is saved on the quote and the order; the order cannot be placed without a valid store.
 - At order placement the shipping address becomes the address of the store, so it shows in e-mails, grid and order.
 - Store info in the admin order, invoice, shipment and credit memo, and on the thank-you page.
+- Works in the **standard Magento (Luma) checkout** with no extra module: store picker under the shipping methods, with search, paged list and map; the store list is loaded only when pickup is chosen.
 - The store locator is not modified: the module extends it additively.
+
+![Store picker in the standard Magento (Luma) checkout](images/store-pickup-luma-checkout.png)
 
 ![Admin order with the chosen pickup store](images/store-pickup-admin-order.png)
 
